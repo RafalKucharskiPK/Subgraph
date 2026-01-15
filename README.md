@@ -21,4 +21,6 @@ $C(G')=\sum_{a \in G'}c_{ij}$
 
 Benefits are measured with some classic transport-based metric, for instance accesibility or passenger hours:
 
-$B(G') = Q \otimes T(G')
+$B(G') = Q \times T(G')$
+
+where $Q$ is a fixed demand and $T(G')$ is travel times matrix $NxN$ for a given network $G'$.
