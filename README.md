@@ -24,3 +24,10 @@ Benefits are measured with some classic transport-based metric, for instance acc
 $B(G') = Q \times T(G')$
 
 where $Q$ is a fixed demand and $T(G')$ is travel times matrix $NxN$ for a given network $G'$.
+
+Loss either difference between benefits and costs (not classicla, but easier for algos) or ratio $BCR$ (classical but harder probably).
+
+### Remarks, issues:
+
+* in the solution $G'$ shall to be a subset of a complete graph $G$, but in the meantime the continous variable $0 \leq a_{ij} \leq 1$ is accepted.
+* we need gradient $dL\dG$
